@@ -1,3 +1,14 @@
+"""
+Assignment Six: Zoo Animals
+Author: Amir Tadros
+CWID: 20402155
+Date: 11/16/2020
+
+Enhancements in this release:
+- Create Tapir class following the zoo animal class guidelines
+"""
+
+
 class Tapir:
     def __init__(self):
         self.animalType: str = 'Tapir'

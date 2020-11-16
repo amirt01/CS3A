@@ -1,5 +1,5 @@
 """
-Assignment One: 1 - Opening Lines
+Assignment One: Opening Lines
 Author: Amir Tadros
 CWID: 20402155
 Date: 9/21/2020
