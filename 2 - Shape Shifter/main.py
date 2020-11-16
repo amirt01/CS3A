@@ -2,47 +2,57 @@
 Assignment Two: Shape Shifter
 Author: Amir Tadros
 CWID: 20402155
-Date: 9/23/2020
+Date: 10/1/2020
+
+Enhancements in this release:
+- Use a function to print each basic shape instead of
+  storing the strings in a variable.
 """
 
 
+def line() -> None:
+    print("       *")
+    print("       *")
+
+
+def triangle() -> None:
+    print("       *")
+    print("      * *")
+    print("     *   *")
+    print("    *     *")
+    print("   *       *")
+    print("  ***********")
+
+
+def rectangle() -> None:
+    print("  ***********")
+    print("  *         *")
+    print("  *         *")
+    print("  *         *")
+    print("  ***********")
+
+
 def main() -> None:
-    strLine = "       *\n" \
-              "       *"
-
-    strTriangle = "       *\n" \
-                  "      * *\n" \
-                  "     *   *\n" \
-                  "    *     *\n" \
-                  "   *       *\n" \
-                  "  ***********"
-
-    strRectangle = "  ***********\n" \
-                   "  *         *\n" \
-                   "  *         *\n" \
-                   "  *         *\n" \
-                   "  ***********"
-
     print("Line")
-    print(strLine)
+    line()
 
     print("Triangle")
-    print(strTriangle)
+    triangle()
 
     print("Rectangle")
-    print(strRectangle)
+    rectangle()
 
     print("Beeker")
-    print(strLine)
-    print(strTriangle)
+    line()
+    triangle()
 
     print("Tree")
-    print(strTriangle)
-    print(strLine)
+    triangle()
+    line()
 
     print("House")
-    print(strTriangle)
-    print(strRectangle)
+    triangle()
+    rectangle()
 
 
 if __name__ == "__main__":
